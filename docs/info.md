@@ -13,8 +13,8 @@ Our project is a 4x4 array multiplier. It implements two AND gates that go into 
 
 ## How to test
 
-Explain how to use your project
+Explain how to use your project. add image
 
 ## External hardware
 
-List external hardware used in your project (e.g. PMOD, LED display, etc), if any
+N/A
