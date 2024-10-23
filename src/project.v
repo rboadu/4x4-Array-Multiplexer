@@ -5,7 +5,7 @@
 
 `default_nettype none
 
-module tt_um_array_mult_stuctural_sarahherrera (
+module tt_um_array_mult_structural_sarahherrera (
     input  wire [7:0] ui_in,    // Dedicated inputs
     output wire [7:0] uo_out,   // Dedicated outputs
     input  wire [7:0] uio_in,   // IOs: Input path
