@@ -13,7 +13,7 @@ Our project is a 4x4 array multiplier. It implements two AND gates that go into 
 
 ## How to test
 
-Explain how to use your project. add image
+add image, the multiplier tests many things such as
 
 ## External hardware
 
