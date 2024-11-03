@@ -9,11 +9,13 @@ You can also include images in this folder and reference them in the markdown. E
 
 ## How it works
 
-Our project is a 4x4 array multiplier. It implements two AND gates that go into each box box of the multiplier, a carry wire that comes into the box, carry wire that carries out the box, and a wire that outputs the product of the two inputs. It takes in two four-bit inputs, outputting the eight-bit product.
+Our 4x4 array multiplier multiplies two 4-bit binary numbers to produce an 8-bit product by breaking down the process into partial products. Each bit of one input is ANDed with each bit of the other input, creating a 4x4 grid of partial products. These partial products are organized into rows and shifted leftward, simulating the alignment process in traditional multiplication. Full adders within each “box” of the grid add these partial products, managing both the sum and the carry bits. Each carry moves to the next box, allowing us to systematically add all rows and carry values. Once all additions are complete, the result is an accurate 8-bit binary product of the two inputs.
 
 ## How to test
 
-add image, the multiplier tests many things such as
+Testing the 4x4 array multiplier is handled with a Verilog testbench that instantiates the module, wiring inputs and outputs, along with a Python script for validation. The Python script applies specific input values, then checks output correctness using assertions to verify expected multiplication results. For each test, values are set for the inputs, clock cycles are awaited, and the output is asserted to match the expected product, making it easy to identify any errors. The repository also includes a block diagram illustrating the structure of partial products, adders, and carry management within the multiplier.
+
+![4x4 Multiplier Diagram](docs/4x4Multiplier.png)
 
 ## External hardware
 
