@@ -1,9 +1,9 @@
 # Tiny Tapeout project information
 project:
-  title:        "array multiplier"      
+  title:        "Array Multiplier"      
   author:       "Rebecca Boadu & Sarah Herrera"      
   discord:      ""
-  description:  "4x4 structural array multiplier"      
+  description:  "4x4 Structural Array Multiplier"      
   language:     "Verilog"
   clock_hz:     0       
 
